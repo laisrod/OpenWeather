@@ -27,3 +27,11 @@ npm run dev
 ```sh
 npm run build
 ```
+
+## 🎬 Demo
+
+![App Demo](./docs/demo.gif)
+
+## 🛠️ Technologies Used
+
+- [Vue.js](https://vuejs.org/)
