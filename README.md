@@ -1,32 +1,28 @@
-# weather-app
+# Weather Forecast App
 
-This template should help get you started developing with Vue 3 in Vite.
+A simple weather forecast application built with Vue.js.
 
-## Recommended IDE Setup
+## ✨ Features
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+- Search for weather forecasts by city name.
+- Display detailed city data (population, coordinates, etc.).
+- Weather forecast for the next few days, in 3-hour intervals.
+- Error handling for cities not found or connection issues.
 
-## Customize configuration
+## 🚀 How to Run
 
-See [Vite Configuration Reference](https://vite.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/laisrod/OpenWeather.git
+   ```
+2. Install the dependencies:
+   ```bash
+   npm install
+   ```
+3. Run the development server:
+   ```bash
+   npm run dev
+   ```
 
 ## 🎬 Demo
 
@@ -35,3 +31,6 @@ npm run build
 ## 🛠️ Technologies Used
 
 - [Vue.js](https://vuejs.org/)
+- [Vite](https://vitejs.dev/)
+- [Axios](https://axios-http.com/)
+- [OpenWeatherMap API](https://openweathermap.org/api)
