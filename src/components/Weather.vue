@@ -68,7 +68,7 @@
           return;
         }
 
-        const apiKey = "5ec6a2195731ab3354a105aedda45b3c";
+        const apiKey = import.meta.env.VITE_OPENWEATHER_API_KEY;
         const url = `https://api.openweathermap.org/data/2.5/forecast?q=${this.city}&appid=${apiKey}&units=metric&lang=pt_br`;
 
         try {
